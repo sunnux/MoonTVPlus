@@ -17,3 +17,4 @@ jobs:
           head: main         # 你的 Fork 分支
           exclude: |
             .github/workflows/sync.yml
+            .github/workflows/cloudflare-deploy.yml
