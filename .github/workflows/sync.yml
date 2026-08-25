@@ -15,3 +15,5 @@ jobs:
           repo: MoonTVPlus
           base: main         # 上游分支
           head: main         # 你的 Fork 分支
+          exclude: |
+            .github/workflows/sync.yml
